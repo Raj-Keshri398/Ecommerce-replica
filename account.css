@@ -1,0 +1,74 @@
+/* Account Section Styles */
+.account-section {
+    padding: 4rem 0;
+    background-color: #fefefe;
+}
+
+/* Left side - Account Info */
+.account-info {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eee;
+    text-align: left;
+}
+.account-info p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+.account-info span {
+    font-weight: 600;
+    color: #555;
+    margin-left: 0.5rem;
+}
+#order-btn,
+#logout-btn {
+    color: #d4a373;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+#order-btn:hover,
+#logout-btn:hover {
+    color: #b08968;
+    text-decoration: underline;
+}
+
+/* Right side - Account Form */
+#account-form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eee;
+}
+#account-form h3 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    color: #333;
+}
+#account-form .form-group {
+    margin-bottom: 1.5rem;
+}
+#account-form .form-control {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 0.6rem 0.75rem;
+    font-size: 1rem;
+}
+#change-password-btn {
+    background-color: #d4a373;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1.25rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#change-password-btn:hover {
+    background-color: #b08968;
+}
