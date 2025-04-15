@@ -1,0 +1,45 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+
+  .form-wrapper {
+    position: relative;
+    width: 400px;
+    margin: 120px auto;
+    overflow: hidden;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  }
+
+  .form-slider {
+    display: flex;
+    width: 800px;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .form-content {
+    width: 400px;
+    padding: 2rem;
+  }
+
+  .form-content h2 {
+    margin-bottom: 1rem;
+  }
+
+  .btn-link {
+    color: #c06020;
+    cursor: pointer;
+    text-decoration: underline;
+    background: none;
+    border: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+
+  .btn-primary{
+    background-color: rgb(20, 117, 197);
+  }
