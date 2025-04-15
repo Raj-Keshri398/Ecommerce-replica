@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Heritage Aromas - Premium quality products with best prices">
+    <title>Heritage Aromas - Premium Products</title>
+    
+    <!-- Preload critical resources -->
+    <!-- Bootstrap CSS (preloaded for performance) -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"></noscript>
+    
+    <!-- Font Awesome -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"></noscript>
+    
+    <!-- Custom CSS -->
+    <link rel="preload" href="Assests/Css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="Assests/Css/style.css"></noscript>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Playfair+Display:wght@700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Playfair+Display:wght@700&display=swap"></noscript>
+</head>
+<body>
+    <!-- Navigation - Using Bootstrap navbar component -->
+    <nav class="navbar navbar-expand-lg py-3 fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" aria-label="Heritage Aromas Home">HERITAGE AROMAS</a>
+            <!-- Bootstrap responsive navbar toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Bootstrap collapsible navbar content -->
+            <div class="collapse navbar-collapse nav-buttons" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                
+                <!-- Bootstrap utility classes for flex layout -->
+                <div class="d-flex">
+                    <a href="cart.html" class="nav-link position-relative mx-2" aria-label="Shopping Cart">
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                    </a>
+                    <a href="account.html" class="nav-link mx-2" aria-label="User Account">
+                        <i class="fas fa-user" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home">
+            <!-- Bootstrap container for proper padding and alignment -->
+            <div class="container">
+                <h5>NEW ARRIVALS</h5>
+                <h1><span>Best Prices</span> This Season</h1>
+                <p>Best Taste and healthy product with best price</p>
+                <!-- Bootstrap button component -->
+                <button class="btn btn-primary">Shop Now</button>
+            </div>
+        </section>
+
+        <!-- Brand Section -->
+        <section id="brand">
+            <div class="marquee-alternative mb-4">
+            <span>🎉 Special Offer: Get 20% Off on First Purchase! Use Code: NEW20 🎉</span>
+            </div>
+        </section>
+      
+        <!-- New Products Section -->
+        <section id="new" class="w-100">
+            <!-- Bootstrap grid system -->
+            <div class="row p-0 m-0">
+                <!-- Product One -->
+                <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
+                    <img class="img-fluid" src="Assests/imgs/cardmom.jpg" alt="Nutmeg product" />
+                    <div class="details">
+                        <h2>Taste is best...</h2>
+                        <!-- Bootstrap text utility class -->
+                        <button class="text-uppercase">Shop Now</button>
+                    </div>
+                </div>
+
+                <!-- Product Two -->
+                <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
+                    <img class="img-fluid" src="Assests/imgs/Cassia.jpg" alt="Cassia product" />
+                    <div class="details">
+                        <h2>Taste is healthy...</h2>
+                        <button class="text-uppercase">Shop Now</button>
+                    </div>
+                </div>
+
+                <!-- Product Three -->
+                <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
+                    <img class="img-fluid" src="Assests/imgs/Mace.jpg" alt="Mace product" />
+                    <div class="details">
+                        <h2>Taste is awsome...</h2>
+                        <button class="text-uppercase">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Featured-->
+        <!-- Featured Section -->
+        <section id="featured" class="my-5 pb-5">
+            <div class="container text-center mt-5 py-5">
+                <h3>Our Featured</h3>
+                <hr class="w-25 mx-auto">
+                <p>Here you can check out our products</p>
+            </div>
+            
+            <div class="container">
+                <div class="row g-4">  <!-- Bootstrap gutter spacing -->
+                    <!-- Product 1 -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="product card h-100 border-0">
+                            <img src="Assests/imgs/cardmom.jpg" class="card-img-top img-fluid p-3" alt="Cardmom">
+                            <div class="card-body text-center">
+                                <div class="star text-warning mb-2">
+                                    ★★★★★
+                                </div>
+                                <h5 class="card-title">Cardmom</h5>
+                                <h4 class="text-primary">$100</h4>
+                                <p class="text-muted">1kg</p>
+                                <button class="btn btn-dark w-75 mx-auto">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Repeat same structure for other 3 products -->
+                    <!-- Product 2 -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="product card h-100 border-0">
+                            <img src="Assests/imgs/Mace.jpg" class="card-img-top img-fluid p-3" alt="Mace">
+                            <div class="card-body text-center">
+                                <div class="star text-warning mb-2">
+                                    ★★★★★
+                                </div>
+                                <h5 class="card-title">Mace</h5>
+                                <h4 class="text-primary">$90</h4>
+                                <p class="text-muted">1kg</p>
+                                <button class="btn btn-dark w-75 mx-auto">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 3 -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="product card h-100 border-0">
+                            <img src="Assests/imgs/BlackCardmom.jpg" class="card-img-top img-fluid p-3" alt="BlackCardmom">
+                            <div class="card-body text-center">
+                                <div class="star text-warning mb-2">
+                                    ★★★★★
+                                </div>
+                                <h5 class="card-title">Black Cardmom</h5>
+                                <h4 class="text-primary">$50</h4>
+                                <p class="text-muted">1kg</p>
+                                <button class="btn btn-dark w-75 mx-auto">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 4 -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="product card h-100 border-0">
+                            <img src="Assests/imgs/Cassia.jpg" class="card-img-top img-fluid p-3" alt="Cassia">
+                            <div class="card-body text-center">
+                                <div class="star text-warning mb-2">
+                                    ★★★★★
+                                </div>
+                                <h5 class="card-title">Cassia</h5>
+                                <h4 class="text-primary">$80</h4>
+                                <p class="text-muted">1kg</p>
+                                <button class="btn btn-dark w-75 mx-auto">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Brand Section -->
+        <section id="brand">
+            <div class="marquee-alternative mb-4">
+            <span>🎉 Special Offer: Get 20% Off on First Purchase! Use Code: NEW20 🎉</span>
+            </div>
+        </section>
+
+        <!--Seeds-->
+        <section id="featured" class="my-5">
+            <div class="container text-center mt-5 py-5">
+                <h3>Seeds</h3>
+                <hr class="w-25 mx-auto">
+                <p>Here you can check the seeds</p>
+            </div>
+            
+            <div class="container">
+                <div class="row g-4">  <!-- Bootstrap gutter spacing -->
+                    <!-- Product 1 -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="product card h-100 border-0">
+                            <img src="Assests/imgs/peanuts.jpg" class="card-img-top img-fluid p-3" alt="Cardmom">
+                            <div class="card-body text-center">
+                                <div class="star text-warning mb-2">
+                                    ★★★★★
+                                </div>
+                                <h5 class="card-title">Peanuts</h5>
+                                <h4 class="text-primary">$10</h4>
+                                <p class="text-muted">1kg</p>
+                                <button class="btn btn-dark w-75 mx-auto">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Repeat same structure for other 3 products -->
+                    <!-- Product 2 -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="product card h-100 border-0">
+                            <img src="Assests/imgs/pumpkin.jpg" class="card-img-top img-fluid p-3" alt="Mace">
+                            <div class="card-body text-center">
+                                <div class="star text-warning mb-2">
+                                    ★★★★★
+                                </div>
+                                <h5 class="card-title">Pumpkin</h5>
+                                <h4 class="text-primary">$20</h4>
+                                <p class="text-muted">1kg</p>
+                                <button class="btn btn-dark w-75 mx-auto">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 3 -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="product card h-100 border-0">
+                            <img src="Assests/imgs/sunflower_seeds.jpg" class="card-img-top img-fluid p-3" alt="BlackCardmom">
+                            <div class="card-body text-center">
+                                <div class="star text-warning mb-2">
+                                    ★★★★★
+                                </div>
+                                <h5 class="card-title">Sun Flower Seeds</h5>
+                                <h4 class="text-primary">$40</h4>
+                                <p class="text-muted">1kg</p>
+                                <button class="btn btn-dark w-75 mx-auto">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 4 -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="product card h-100 border-0">
+                            <img src="Assests/imgs/corn.jpg" class="card-img-top img-fluid p-3" alt="Cassia">
+                            <div class="card-body text-center">
+                                <div class="star text-warning mb-2">
+                                    ★★★★★
+                                </div>
+                                <h5 class="card-title">Corn</h5>
+                                <h4 class="text-primary">$5</h4>
+                                <p class="text-muted">1kg</p>
+                                <button class="btn btn-dark w-75 mx-auto">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-center text-md-start">
+            <div class="row text-center text-md-start">
+                <!-- About -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Heritage Aromas</h5>
+                    <p>Premium quality products with the best taste and price. We bring nature's best to your table.</p>
+                </div>
+
+                <!-- Products -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Products</h5>
+                    <p><a href="#" class="text-decoration-none">Spices</a></p>
+                    <p><a href="#" class="text-decoration-none">Seeds</a></p>
+                    <p><a href="#" class="text-decoration-none">Oils</a></p>
+                    <p><a href="#" class="text-decoration-none">Blends</a></p>
+                </div>
+
+                <!-- Useful Links -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Useful Links</h5>
+                    <p><a href="#" class="text-decoration-none">Your Account</a></p>
+                    <p><a href="#" class="text-decoration-none">Become an Affiliate</a></p>
+                    <p><a href="#" class="text-decoration-none">Shipping Info</a></p>
+                    <p><a href="#" class="text-decoration-none">Help</a></p>
+                </div>
+
+                <!-- Contact -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+                    <p><i class="fas fa-home me-3"></i> 123 Aroma Lane, Spice City</p>
+                    <p><i class="fas fa-envelope me-3"></i> info@heritagearomas.com</p>
+                    <p><i class="fas fa-phone me-3"></i> +123 456 7890</p>
+                    <p><i class="fas fa-print me-3"></i> +123 456 7891</p>
+                </div>
+            </div>
+
+            <!-- Social media -->
+            <div class="row mt-4">
+                <div class="col-md-12 text-center">
+                    <a href="#" class="me-4"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="me-4"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="me-4"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="me-4"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center mt-3">
+            <p class="mb-0">&copy; 2025 Heritage Aromas. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JavaScript Bundle with Popper (deferred for performance) -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
